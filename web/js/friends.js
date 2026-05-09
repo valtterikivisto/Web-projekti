@@ -39,27 +39,7 @@ const addFriendsToTable = async () => {
     }
 }
 
-const test = async () => {
-    const me = await getMe();
-    
-    
-    for (let i = 0; i < 5; i++) {
-        const row = list.insertRow(i);
-        const col1 = row.insertCell(0);
-        const col2 = row.insertCell(1);
-        const col3 = row.insertCell(2);
-        const col4 = row.insertCell(3);
 
-
-        const img = document.createElement("img");
-        img.src = me.avatarmedium;
-        col1.appendChild(img);
-        col2.innerHTML = me.personaname;
-        col3.innerHTML = readStatus(me.personastate);
-        col4.innerHTML = "5.2.2020";
-
-    }
-}
 
 const readStatus = (status) => {
     switch (status) {
