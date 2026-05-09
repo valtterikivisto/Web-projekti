@@ -84,4 +84,4 @@ const readStatus = (status) => {
 
 
 
-//addFriendsToTable();
+addFriendsToTable();
