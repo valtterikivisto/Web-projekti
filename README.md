@@ -4,10 +4,10 @@
 
 The website displays general information from my Steam profile using the Steam API. The website has three pages. The first page is about my profile, the second is about my friends, and the third is about the games I own.
 
-## How website works
-Website uses JavaScript, CSS and HTML. JavaScript is used to fetch information from local server and adding some elements to the pages.
+## How the website works
+The website uses JavaScript, CSS and HTML. JavaScript is used to fetch information from a local server and to add some elements to the pages.
 
-## How to use website
+## How to use the website
 
 The website needs an Express server to perform the API requests because it is not possible to perform Steam API requests directly from a client.
 
