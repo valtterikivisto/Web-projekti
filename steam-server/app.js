@@ -8,7 +8,7 @@ app.use(cors());
 
 const base_url = "https://api.steampowered.com/ISteamUser/";
 const games_url = "https://api.steampowered.com/IPlayerService/GetOwnedGames/v0001/"
-const api_key = "9AE063C14074063D148A9A1EE85FDD96"; // API-key here
+const api_key = ""; // API-key here
 const profile_id = "76561198330315604";
 
 app.get("/", async (request, response, next) => {
